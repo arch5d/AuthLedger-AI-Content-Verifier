@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "public": "dist",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_CONTRACT_ADDRESS": "@contract_address",
+    "VITE_NETWORK_ID": "@network_id",
+    "VITE_NETWORK_NAME": "@network_name"
+  },
+  "regions": ["iad1"]
+}
