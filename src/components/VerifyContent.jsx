@@ -45,7 +45,7 @@ export default function VerifyContent() {
 
   return (
     <section className="card">
-      <h2>✅ Verify Content</h2>
+      <h2>→ Verify Content</h2>
       {error && <div style={{ color: '#ff6b6b', padding: '10px', backgroundColor: '#ffe0e0', borderRadius: '4px', marginBottom: '10px' }}>⚠️ {error}</div>}
       <input
         type="text"

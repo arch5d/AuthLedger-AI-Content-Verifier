@@ -13,7 +13,7 @@ function App() {
     <ContractProvider>
       <div className="container">
         <header>
-          <h1>🔥 ContentVerifier DApp</h1>
+          <h1>↪AuthLedger▶▷</h1>
           <p>Verify AI vs Human Content on Ethereum</p>
         </header>
         <ConnectWallet />

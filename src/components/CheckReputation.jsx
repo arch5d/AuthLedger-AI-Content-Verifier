@@ -41,7 +41,7 @@ export default function CheckReputation() {
 
   return (
     <section className="card">
-      <h2>⭐ Check Reputation</h2>
+      <h2>→ Check Reputation</h2>
       {error && <div style={{ color: '#ff6b6b', padding: '10px', backgroundColor: '#ffe0e0', borderRadius: '4px', marginBottom: '10px' }}>⚠️ {error}</div>}
       <input
         type="text"
