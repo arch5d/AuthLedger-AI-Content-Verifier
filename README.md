@@ -1,4 +1,4 @@
-# 🧭 ContentVerifier DApp
+# AuthLedger - AI Content Verification DApp
 
 <div align="center">
 
