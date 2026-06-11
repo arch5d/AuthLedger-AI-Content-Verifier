@@ -115,7 +115,7 @@ npm run preview
 │     ethers.js (Blockchain Connection)           │
 ├─────────────────────────────────────────────────┤
 │    Smart Contract (Sepolia Testnet)             │
-│  Address: 0x7EF2e0048f5bAeDe046f6BF797943...   │
+│  Address: 0x7EF2e0048f5bAeDe046f6BF797943...    │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -139,30 +139,9 @@ npm run preview
 
 ## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
+**Live at:** `https://authledger-ai-content-verifier.vercel.app/`
 
-1. **Push to GitHub:**
-   ```bash
-   git init && git add . && git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO.git
-   git push -u origin main
-   ```
-
-2. **Go to [Vercel Dashboard](https://vercel.com)**
-   - Click "New Project"
-   - Import GitHub repository
-   - Add Environment Variables:
-     ```
-     VITE_CONTRACT_ADDRESS=0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47
-     VITE_NETWORK_ID=11155111
-     VITE_NETWORK_NAME=Sepolia
-     ```
-   - Deploy 🎉
-
-**Live at:** `https://your-vercel-url.vercel.app`
-
-📖 **[Detailed Deployment Guide →](./DEPLOY_VERCEL.md)**
+📖 **[Deployment Guide →](./DEPLOY_VERCEL.md)**
 
 ---
 
@@ -170,7 +149,7 @@ npm run preview
 
 ### Local Development (`.env.local`)
 ```bash
-VITE_CONTRACT_ADDRESS=0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47
+VITE_CONTRACT_ADDRESS=0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB4
 VITE_NETWORK_ID=11155111
 VITE_NETWORK_NAME=Sepolia
 ```
@@ -290,7 +269,7 @@ MIT License - [See LICENSE](LICENSE)
 
 - **First time?** Start with [`DEPLOY_VERCEL.md`](./DEPLOY_VERCEL.md)
 - **Need details?** Read [`README_PRODUCTION.md`](./README_PRODUCTION.md)
-- **Have questions?** Open an [issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues)
+- **Have questions?** Open an [issue](https://github.com/arch5d/AuthLedger-AI-Content-Verifier/issues)
 
 ---
 
@@ -298,6 +277,6 @@ MIT License - [See LICENSE](LICENSE)
 
 Built with ❤️ using React, Vite & Ethereum
 
-[⭐ Star us on GitHub](https://github.com/YOUR_USERNAME/YOUR_REPO) • [🐛 Report Bug](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) • [💬 Discuss](https://github.com/YOUR_USERNAME/YOUR_REPO/discussions)
+[⭐ Star us on GitHub](https://github.com/arch5d/AuthLedger-AI-Content-Verifier) • [🐛 Report Bug](https://github.com/arch5d/AuthLedger-AI-Content-Verifier/issues) • [💬 Discuss](https://github.com/arch5d/AuthLedger-AI-Content-Verifier/discussions)
 
 </div>
